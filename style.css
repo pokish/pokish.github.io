@@ -16,9 +16,11 @@ h1 {
 	text-align: center;
 	margin: 0;
 	padding: 20px 0;
-	color: #62E1B9;
 	text-shadow: 3px 3px 1px black;
 }
+h1 a {
+	color: #62E1B9;
+	}
 p, li {
 	font-size: 16px;
 	line-height: 2;
