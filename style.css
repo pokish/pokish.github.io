@@ -39,3 +39,16 @@ img {
 	margin: 0 auto;
 	font-size: 20px;
 }
+audio {
+	display: block;
+	margin: auto;
+	left: 0;
+	right: 0;
+	margin-bottom: 30px;
+}
+video {
+	display: block;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
