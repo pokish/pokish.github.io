@@ -1,100 +1,54 @@
-@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans");
-
+html {
+	font-size: 10px;
+	font-family: "open sans", sans-serif;
+	background-color: #CDFFF4;
+}
 body {
-  font-family: "Merriweather Sans", sans-serif;
+	width: auto;
+	background-color: #C7FFC5;
+	margin: 2% 4%;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black;
+	border-radius: 18px;
 }
-
-img.logo {
-  width: 38px;
-  height: auto;
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+	text-shadow: 3px 3px 1px black;
+	color: #62E1B9;
 }
-
-.navbar-brand {
-  width: 50%;
+#firstp {
+	margin-top: 220px;
 }
-
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
-  color: #005caf;
+p, li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
 }
-
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-  }
+img {
+	width: 200px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
 }
-
-.bg-minimalist {
-  background-color: #ffffff !important;
-  opacity: 0.9;
+#user {
+	display: block;
+	margin: 0 auto;
+	font-size: 20px;
 }
-
-.btn-link {
-  color: #005caf;
+audio {
+	display: block;
+	margin: auto;
+	left: 0;
+	right: 0;
+	margin-bottom: 30px;
 }
-.btn-link:hover,
-.btn-link:focus {
-  text-decoration: none;
-}
-
-footer {
-  color: #005caf;
-  font-size: 0.8rem;
-  border-top: 1px solid #005caf;
-}
-
-.img-desc {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  background: #ffffff;
-  width: 100%;
-  height: 100%;
-  color: #005caf;
-  transition: animation ease-in-out 2.5;
-}
-
-.img-desc:hover,
-.img-desc:focus {
-  opacity: 0.5;
-  animation: portfolio 2s ease forwards;
-}
-
-@keyframes portfolio {
-  0% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0.8;
-  }
-}
-
-.team {
-  background: #81c7df;
-}
-
-.team .bg-minimalist {
-  background-color: #81c7df !important;
-}
-
-.team .navbar-light .navbar-nav .active > .nav-link,
-.team .navbar-light .navbar-nav .nav-link.active,
-.team .navbar-light .navbar-nav .nav-link.show,
-.team .navbar-light .navbar-nav .show > .nav-link,
-.team .breadcrumb-item.active,
-.team .breadcrumb-item + .breadcrumb-item::before {
-  color: #ffffff;
-}
-
-.team .navbar-light .navbar-nav .nav-link {
-  color: #ffffff;
-}
-
-.breadcrumb {
-  color: #ffffff;
-  background: none;
+video {
+	display: block;
+	margin: auto;
+	left: 0;
+	right: 0;
 }
