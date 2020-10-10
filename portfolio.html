@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Some portfolio website</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-minimalist">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img class="logo" src="./images/logo.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href=""
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  About
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="team.html">Team</a>
+                  <a class="dropdown-item" href="contact.html">Contact</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+            <div class="social-link">
+              <a class="px-2" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a class="px-2" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="px-2" href="#"><i class="fab fa-medium-m"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="p-3 mt-5">
+      <div class="container">
+        <div class="button-group filters-button-group">
+          <button class="btn btn-link is-checked" data-filter="*">
+            show all
+          </button>
+          <button class="btn btn-link" data-filter=".portrait">Portrait</button>
+          <button class="btn btn-link" data-filter=".landscape">
+            Landscape
+          </button>
+        </div>
+        <div class="row grid">
+          <div class="col-12 col-md-6 element-item landscape">
+            <img
+              class="img-fluid pt-3 pb-3"
+              src="./images/img (4).jpg"
+              alt="some pic"
+            />
+            <div class="img-desc">
+              <h5 class="p-5 mt-5 text-center">Photo by by Luis Quintero</h5>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 element-item landscape">
+            <img
+              class="img-fluid pt-3 pb-3"
+              src="./images/img (3).jpg"
+              alt="some pic"
+            />
+            <div class="img-desc">
+              <h5 class="p-5 mt-5 text-center">Photo by Adrianna Calvo</h5>
+            </div>
+          </div>
+          <div class="col-12 element-item landscape">
+            <img
+              class="img-fluid pt-3 pb-3"
+              src="./images/img (1).jpg"
+              alt="some pic"
+            />
+            <div class="img-desc">
+              <h5 class="p-5 mt-5 text-center">
+                Photo by The Lazy Artist Gallery
+              </h5>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 element-item portrait">
+            <img
+              class="img-fluid pt-3 pb-3"
+              src="./images/img (2).jpg"
+              alt="some pic"
+            />
+            <div class="img-desc">
+              <h5 class="p-5 mt-5 text-center">Photo by Tim Savage</h5>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 element-item">
+            <img
+              class="img-fluid pt-3 pb-3"
+              src="./images/img (5).jpg"
+              alt="some pic"
+            />
+            <div class="img-desc">
+              <h5 class="p-5 mt-5 text-center">Photo by Engin Akyurt</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="mt-5 mb-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">&copy; 2019 Some Portfolio</div>
+          <div class="col-12 col-md-3">
+            Some No., Some Street, Some Town, Some Country
+          </div>
+          <div class="col-12 col-md-3">info@fakemail.com</div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- EDITING ISOTOPE -->
+    <script>
+      // external js: isotope.pkgd.js
+
+      // init Isotope
+      var $grid = $(".grid").isotope({
+        itemSelector: ".element-item",
+        layoutMode: "fitRows"
+      });
+      // filter functions
+      var filterFns = {
+        // // show if number is greater than 50
+        // numberGreaterThan50: function() {
+        //   var number = $(this)
+        //     .find(".number")
+        //     .text();
+        //   return parseInt(number, 10) > 50;
+        // },
+        // // show if name ends with -ium
+        // ium: function() {
+        //   var name = $(this)
+        //     .find(".name")
+        //     .text();
+        //   return name.match(/ium$/);
+        // }
+      };
+      // bind filter button click
+      $(".filters-button-group").on("click", "button", function() {
+        var filterValue = $(this).attr("data-filter");
+        // use filterFn if matches value
+        filterValue = filterFns[filterValue] || filterValue;
+        $grid.isotope({ filter: filterValue });
+      });
+      // change is-checked class on buttons
+      $(".button-group").each(function(i, buttonGroup) {
+        var $buttonGroup = $(buttonGroup);
+        $buttonGroup.on("click", "button", function() {
+          $buttonGroup.find(".is-checked").removeClass("is-checked");
+          $(this).addClass("is-checked");
+        });
+      });
+    </script>
+  </body>
+</html>
