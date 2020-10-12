@@ -1,170 +1,80 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Mozilla Has STD</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <style>
-      /* header and body setup */
-
-      html {
-        font-family: 'Open Sans', sans-serif;
-        background: url(color.png);
-        background-attachment: fixed;
-      }
-      
-      body {
-        width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
-        position: relative;
-      }
-
-      /* Header styling */
-
-      header {
-        height: 150px;
-      }
-
-      header img {
-        width: 100px;
-        position: absolute;
-        right: 32.5px;
-        top: 32.5px;
-      }
-
-      h1 {
-        font-size: 50px;
-        line-height: 140px;
-        margin: 0 0 0 32.5px;
-      }
-
-      /* main section and video styling */
-
-      main {
-        background: #ccc;
-      }
-
-      article {
-        padding: 20px;
-      }
-
-      h2 {
-        margin-top: 0;
-      }
-
-      p {
-        line-height: 2;
-      }
-
-      iframe {
-        float: left;
-        margin: 0 20px 20px 0;
-        max-width: 100%;
-      }
-
-      /* further info links */
-
-      .further-info {
-        clear: left;
-        padding: 40px 0;
-                box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
-                    inset 0 -3px 2px rgba(0,0,0,0.5);
-      }
-
-      .further-info a {
-        width: 25%;
-        display: block;
-        float: left;
-      }
-
-      .further-info img {
-        max-width: 100%;
-      }
-
-      .clearfix {
-        clear: both;
-      }
-
-      /* Red panda image */
-
-      .red-panda img {
-        display: block;
-        max-width: 100%;
-      }
-      
-      a:link {
-      	color: rebeccapurple;
-      }
-      
-      a:visited {
-      	color: green;
-      }
-      
-      a:hover {
-      	text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Mozilla</h1>
-      <!-- insert <img> element, link to the small
-          version of the Firefox logo -->
-<a href="index.html"><img src="firefoxlogo120.png"></a>
-    </header>
-
-    <main>
-      <article>
-        <!-- insert iframe from youtube -->
-<iframe width="400"  src="https://www.youtube.com/embed/ojcNcvb1olg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <h2>Rocking the free web</h2>
-
-        <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
-
-        <p>Click on the images below to find more information about the cool stuff Mozilla does. <a href="https://www.flickr.com/photos/mathiasappel/21675551065/">Red panda picture</a> by Mathias Appel.</p>
-      </article>
-    </main>
-    
-      <div class="further-info">
-        <!-- insert images with srcsets and sizes -->
-        <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img srcset="firefoxdinosaur120.png 120w,
-firefoxdinosaur400.png 400w"
-	sizes="(max-width: 500px) 120px, (min-width: 501px) 400px"
-	src="firefoxdinosaur400.png"
-	alt="Firefox Dinosaur!">
-        </a>
-        <a href="https://www.mozilla.org/">
-          <img srcset="firefoxlogo120.png 120w,
-firefoxlogo400.png 400w"
-	sizes="(max-width: 500px) 120px, 400px"
-	src="firefoxlogo400.png"
-	alt="Firefox Logo">
-        </a>
-        <a href="https://addons.mozilla.org/">
-          <img srcset="firefoxaddons120.jpg 120w,
-firefoxaddons400.jpg 400w"
-	sizes="(max-width: 500px) 120px, 400px"
-	src="firefoxaddons400.jpg"
-	alt="Firefox add-ons">
-        </a>
-        <a href="https://developer.mozilla.org/en-US/">
-          <img src="mdn.svg" alt="Mozilla Web Docs">
-        </a>
-        <div class="clearfix"></div>
-      </div>
-
-      <div class="red-panda">
-        <!-- insert picture element -->
-      <picture>
-      	<source media="(max-width: 500px)" srcset="redpanda600.jpg">
-      	<source media="(min-width: 501px)" srcset="redpanda1200.jpg">
-      	<img src="redpanda1200.jpg" alt="Red Panda">
-      </picture>
-      </div>
-
-  </body>
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>My Blog</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="header">
+	<div class="container">
+	<a href="index.html" id="header-title">My Blog</a>
+<ul id="header-nav">
+	<li><a href="about.html">About</a></li>
+	<li><a href="mailto:yomama@gmail.com">Contact</a></li>
+</ul>
+</div>
+</div>
+	<div id="content">
+	<div class="post-container">
+	   <div class="post">
+		   <div class="post-author">
+              <img src="smolpp.jpg" alt="smolpp avatar">
+			  <span>Progress420</span>
+           </div>
+           <p class="post-date">19/9/20</p>
+		   <h3 class="post-title">I have a smol pp</h3>
+           <div class="post-content">
+              <p>It all started when i was born. it was all downhill from there.</p>
+              <p>When everyone "Smiled", i "smoled". they say you can compensate for it with buying fast cars! but I've been <strong>Making</strong> fast Cars and Giant Rockets and even Launching those fast cars On Top of my giant Rockets to the <a href="https://www.whereisroadster.com/Roadster_Earth.png">Space</a>.... sigh. nothing seems to work, but my last option seems to be moving to Mars, maybe there is something there that earthers don't know about yet.... fingers crossed.</p>
+           </div>
+	   </div>
+       </div>
+    <div class="post-container">
+	   <div class="post">
+		  <div class="post-author">
+			 <img src="bigpp.jpg" alt="bigpp Avatar">
+			 <span>Progress69</span>
+          </div>
+          <p class="post-date">19/9/20</p>
+		  <h3 class="post-title">How i "Woke"</h3>
+		  <div class="post-content">
+			  <p>Just a few days earlier i thought i was a complete, worthless piece of absolute <strong>garbage</strong>.... until i <em>fell in love with myself !</em></p>
+			  <p>Now i know the reason behind my existence, i know why i wake up everyday, and i know why i don't give up. It's because of <strong>food, sleep</strong> and <strong>napping</strong> ! now i realize these things are what keeps me going and i only care about myself. My life has truly changed and i feel spiritually enlightened thanks to this awakening.</p>
+		  </div>
+	   </div>
+	</div>
+	</div>
+	<div id="footer">
+	<div class="container">
+		<div class="column">
+			<h4>My Links</h4>
+			<p>
+				<a href="https://twitter.com/me">Twitter</a>
+			<br>
+				<a href="https://facebook.com/me">Facebook</a>
+			</p>
+		</div>
+		<div class="column">
+			<h4>My Story</h4>
+				<p id="story">Hi there! I'm an aspiring Web develop person.</p>
+		</div>
+		<div class="column">
+			<h4>Important Cat Facts</h4>
+				<p id="meow"></p>
+		</div>
+</div>
+</div>
+	<script>
+		var request = new XMLHttpRequest();
+		var url = "https://catfact.ninja/fact?max_length=140";
+		request.open("GET", url, false);
+		request.send();
+		var response = request.response;
+		var kitten = JSON.parse(response);
+		var cat = kitten["fact"];
+		var push = document.getElementById("meow");
+		push.innerHTML = cat;
+	</script>
+</body>
 </html>

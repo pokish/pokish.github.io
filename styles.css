@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+html {
+	background-image: url("color.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
+body {
+	color: #555;
+	margin: 0;
+	padding-top: 60px;
+	font-family: 'Montserrat' , sans-serif;
+}
+#header {
+	background-color: #1abc9c;
+	opacity: 0.85;
+	height: 70px;
+	line-height: 70px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+#header-title {
+	display: block;
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+#header a {
+	color: white;
+	text-decoration: none;
+}
+#header a:hover {
+	color: #222;
+}
+#header-nav {
+	display: block;
+	float: right;
+	margin-top: 0;
+	padding-right: 20px;
+}
+#header-nav li {
+	display: inline;
+	padding-left: 20px;
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+.post-container:first-child {
+	margin-top: 35px;
+}
+.about-author img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+.about {
+	text-align: center;
+}
+.post-container {
+	background-color: white;
+	margin-bottom: 40px;
+	margin-left: 30px;
+	margin-right: 30px;
+	border-radius: 10px;
+}
+.about-content {
+	font-size: 23px;
+}
+.post, .about {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+.post-author img {
+	width: 100px;
+	height: 100px;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+.post-author span {
+	margin-left: 16px;
+	font-size: 13px;
+}
+.post-date {
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #D2D2D2;
+}
+.post-content {
+	font-size: 12px;
+}
+h1, h2, h3, h4 {
+	color: #333;,
+}
+p {
+	line-height: 1.5;
+}
+
+#footer {
+	display: block;
+	position: relative;
+	padding: 50px 0;
+	margin-top: 40px;
+}
+#footer::after {
+  background-color: #2f2f2f;
+  content: "";
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.column {
+	display: inline-block;
+	min-width: 280px;
+	vertical-align: top;
+	padding-left: 20px;
+}
+#footer h4 {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+#meow {
+	max-width: 300px;
+}
+#story{
+	max-width: 200px;
+}
+#footer p {
+	color: white;
+}
+a {
+	color: #1abc9c;
+	text-decoration: none;
+}
+a: hover {
+	color: #F6A623;
+}
