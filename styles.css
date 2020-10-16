@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,400;0,700;1,200&display=swap');
 html {
 	background-image: url("color.png");
 	background-size: cover;
@@ -69,6 +70,9 @@ body {
 }
 .about-content {
 	font-size: 23px;
+}
+.post-title, .post-author, .post-date {
+	font-family: 'Piazzolla', serif;
 }
 .post, .about {
 	max-width: 89%;
