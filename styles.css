@@ -10,7 +10,7 @@ body {
 	color: #555;
 	margin: 0;
 	padding-top: 60px;
-	font-family: 'Montserrat' , sans-serif;
+	font-family: 'Montserrat' , Verdana , sans-serif;
 }
 #header {
 	background: rgba(26, 188, 156, 0.77);
@@ -72,7 +72,7 @@ body {
 	font-size: 23px;
 }
 .post-title, .post-author, .post-date {
-	font-family: 'Piazzolla', serif;
+	font-family: 'Piazzolla', Verdana , sans-serif;
 }
 .post, .about {
 	max-width: 89%;
