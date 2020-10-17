@@ -98,6 +98,8 @@ body {
 }
 .post-content {
 	font-size: 12px;
+	text-indent: 2.2em;
+	text-align: justify;
 	letter-spacing: 0.01em;
 }
 h1, h2, h3, h4 {
