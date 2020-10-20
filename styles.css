@@ -109,6 +109,9 @@ video {
 	margin-left: 0;
 	margin-right: 1.5em;
 }
+.wrapper {
+	display: flow-root;
+}
 h1, h2, h3, h4 {
 	color: #333;
 }
