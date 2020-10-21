@@ -107,14 +107,10 @@ body {
 	letter-spacing: 0.01em;
 }
 video {
+	display: block;
+	width: 94%;
 	border-radius: 4px;
-	float: left;
-	margin: 0.7em;
-	margin-left: 0;
-	margin-right: 0.9em;
-}
-.wrapper {
-	display: flow-root;
+	margin: 0.7em auto;
 }
 h1, h2, h3, h4 {
 	color: #333;
@@ -212,6 +208,17 @@ body {
 }
 .post-content {
 	font-size: 1.2rem;
+}
+video {
+	width: 60%;
+	border-radius: 5px;
+	float: left;
+	margin: 0.7em;
+	margin-left: 0;
+	margin-right: 0.9em;
+}
+.wrapper {
+	display: flow-root;
 }
 #page {
 	display: flow-root;
